@@ -3,12 +3,8 @@
 
 int index = 1;
 
-void System::menu() {
-    this->showInventory();
-}
-
 void System::showInventory() {
-    Inventory::showInventory();
+    Inventory::show();
 }
 
 void System::addProductToInventory(int type) {
@@ -37,5 +33,5 @@ void System::addProductToInventory(int type) {
 }
 
 void System::deleteProductFromInventory(std::string id) {
-    Inventory::deleteInventoryItem(id);
+    Inventory::erase(id);
 }

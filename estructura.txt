@@ -1,0 +1,5 @@
+Encapsulamiento: No fue usado, ya que resulta más tedioso para la realización del parcial (pero es una buena práctica a mantener del OpenClosed)
+Herencia: Fue usado con los productos y sus diferentes tipos
+Polimorfismo: La creación de unicos elementos por tipo de productos
+Modularización: Cada método de modificación de la lista hacen meramente lo que necesitan
+Principios de diseño: Apliqué el S de SOLID de la single responsibility

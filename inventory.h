@@ -5,7 +5,7 @@ class Inventory {
     public:
         static inline LinkedList inventory = LinkedList();
 
-        static void showInventory();
-        static void addInventoryItem(Product* item);
-        static void deleteInventoryItem(std::string itemID);
+        static void show();
+        static void add(Product* item);
+        static void erase(std::string itemID);
 };
